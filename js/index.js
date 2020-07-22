@@ -5,13 +5,29 @@
 // innerHTML tem problemas de segurança
 // title.textContent = 'changing'
 
-const root = document.querySelector('#root')
+// const root = document.querySelector('#root')
 
-function newElement(tag, content) {
+// function newElement(tag, content) {
     // a linha de baixo faz interpolação - usar tag de forma dinâmica
-    const title = `<${tag}>${content}</${tag}>`
+    // const title = `<${tag}>${content}</${tag}>`
     // concatenar com + é muito pior que interpolar
-    root.insertAdjacentHTML('beforeend', title)
-}
+    // root.insertAdjacentHTML('beforeend', title)
+// }
 
-newElement('h1', 'Eita!')
+// newElement('h1', 'Eita!')
+
+//---------------------------------------------------------------------------------------------------------------------------
+
+//Dia 02/04
+
+const root = document.querySelector('#root')
+const textTitle = 'pela graça'
+
+//Tagged template String
+const title = Title `
+    color: red;
+    ${textTitle}
+    font-size: 30px;
+    ${' de Deus'}
+`
+root.insertAdjacentHTML('beforeend', title)
