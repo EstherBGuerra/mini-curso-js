@@ -21,13 +21,16 @@
 //Dia 02/04
 
 const root = document.querySelector('#root')
-const textTitle = 'pela graça'
+const textTitle = 'happiness'
 
 //Tagged template String
 const title = Title `
-    color: red;
+    color: #1289A7;
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 2rem;
     ${textTitle}
-    font-size: 30px;
-    ${' de Deus'}
 `
 root.insertAdjacentHTML('beforeend', title)
+
+root.insertAdjacentElement('beforeend', wrapperCharacters)
