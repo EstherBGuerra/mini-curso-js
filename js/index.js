@@ -21,16 +21,16 @@
 //Dia 02/04
 
 const root = document.querySelector('#root')
-const textTitle = 'happiness'
+const textTitle = 'Happiness'
 
 //Tagged template String
 const title = Title `
     color: #1289A7;
-    font-size: 2rem;
+    font-size: 65px;
     letter-spacing: 1.5px;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     ${textTitle}
 `
 root.insertAdjacentHTML('beforeend', title)
-
 root.insertAdjacentHTML('beforeend', wrapperCharacters)
+root.insertAdjacentHTML('beforeend', slide)

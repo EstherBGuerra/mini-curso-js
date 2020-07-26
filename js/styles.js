@@ -1,4 +1,10 @@
 const style = `<style>
+
+:root {
+    --line-height: 10px;
+    --happy-color: #5758BB;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -14,16 +20,19 @@ body {
 }
 
 #root {
-    font-family: 'Press Start 2P', cursive;
-    background-color: #FFC312;
-    /* vh=pega uma porcentagem da tela
-    vw = viewport widthfield (WW) */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 80px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
     width: 40vw;
     min-width: 550px;
     height: 65vh;
-    text-align: center;
-    padding-top: 4rem;
-    border-radius: 80px;
+    padding-top: 2rem;
+    padding-bottom: 3.7rem;
+    background-color: #FFC312;
 }
 </style>`
 
