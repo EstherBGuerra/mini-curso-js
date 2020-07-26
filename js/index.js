@@ -33,4 +33,4 @@ const title = Title `
 `
 root.insertAdjacentHTML('beforeend', title)
 
-root.insertAdjacentElement('beforeend', wrapperCharacters)
+root.insertAdjacentHTML('beforeend', wrapperCharacters)

@@ -6,7 +6,7 @@ const cupcake = Character `
     ${pathCupcake}
 `
 
-const WrapperCharacters = (css, ...children) => (`
+const WrapperCharacters = (css, children) => (`
     <div style="${css}">${children}</div>
 `)
 
