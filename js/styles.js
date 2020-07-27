@@ -1,8 +1,10 @@
 const style = `<style>
 
 :root {
-    --line-height: 10px;
+    --line-height: 5px;
     --happy-color: #5758BB;
+    --action-color: #fff;
+    --round-border: 50%;
 }
 
 * {
